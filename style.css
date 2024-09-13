@@ -366,6 +366,36 @@ nav{
     border-radius: 10px;
 }
 
+/* section 7 */
+.section7wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 70px 0px;
+    height: fit-content;
+}
+.section7heading{
+    text-align: center;
+    font-size: 30px;
+}
+.section7grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    width: 80%;
+    margin: 40px 0px;
+    margin-inline: auto;
+}
+.reddot{
+    height: .5rem;
+    width: .5rem;
+    background-color: #FB651E;
+    transform: rotate(45deg);
+}
+.section7flex{
+    display: flex;
+    justify-content: space-between;
+
+}
 
 
 
